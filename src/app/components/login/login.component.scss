@@ -1,0 +1,187 @@
+// :root {
+//   --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+//     Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+//     "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+//     "Source Han Sans CN", sans-serif;
+// }
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1280px;
+  height: 832px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 1280px;
+  height: 80px;
+  margin: 0 0 0 0;
+  background: #391561;
+  z-index: 10;
+  overflow: visible auto;
+}
+.logo {
+  position: relative;
+  width: 143px;
+  height: 80px;
+  margin: 0 0 0 0;
+  // background: url(./assets/images/242ae70fe1f51f7e62448ce5a4972319fd286bda.png)
+    // no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.chill-waves-collab-login {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 440px;
+  height: 52px;
+  margin: 235px 0 0 893px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-1 {
+  position: relative;
+  width: 434px;
+  height: 57px;
+  margin: 15px 0 0 813px;
+  background: #ffffff;
+  z-index: 2;
+  overflow: hidden;
+}
+.vector {
+  position: absolute;
+  width: 12.21%;
+  height: 57.89%;
+  top: 17.54%;
+  left: 2.53%;
+  // background: url(./assets/images/5937bff5-0aa1-4da0-a0aa-e2e1a1b61537.png)
+    // no-repeat center;
+  background-size: 100% 100%;
+  z-index: 8;
+}
+.enter-user-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 14px;
+  left: 82px;
+  color: #bebbbb;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.rectangle-2 {
+  position: relative;
+  width: 434px;
+  height: 64px;
+  margin: 53px 0 0 813px;
+  background: #ffffff;
+  z-index: 3;
+  overflow: hidden;
+}
+.vector-3 {
+  position: absolute;
+  width: 11.98%;
+  height: 50%;
+  top: 21.88%;
+  left: 2.76%;
+  // background: url(./assets/images/ee83b70c-cb7e-43e2-9896-19fb0239c760.png)
+    // no-repeat center;
+  background-size: 100% 100%;
+  z-index: 9;
+}
+.enter-password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 29px;
+  top: 17px;
+  left: 81px;
+  color: #bebbbb;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.submit {
+  display: block;
+  position: relative;
+  height: 29px;
+  margin: 53px 0 0 986px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 29px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+.forgot-password {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  width: 488px;
+  height: 58px;
+  margin: 40px 0 0 1030px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29.045px;
+  text-align: left;
+  z-index: 4;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.background {
+  position: absolute;
+  width: 2132px;
+  height: 1103px;
+  top: -277px;
+  left: -852px;
+  background: url(./assets/task-management.png)
+    no-repeat center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  div {
+      width: 80%;
+  }
+} 
