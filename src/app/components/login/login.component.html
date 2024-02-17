@@ -1,20 +1,18 @@
-
-
-<p>test</p>
-<i class="fa-solid fa-user"></i>
-    <div class="main-container">
-      <div class="rectangle"><div class="logo"></div></div>
-      <span class="chill-waves-collab-login">Chill waves collab login</span>
-      <div class="rectangle-1">
-        <div class="vector"></div>
-        <input  class="enter-user-name" placeholder="Enter your user name ...."> 
-      </div>
-      <div class="rectangle-2">
-        <div class="vector-3"></div>
-        <span class="enter-password">Enter your password ....</span>
-      </div>
-      <span class="submit">Login</span
-      ><span class="forgot-password">Forgot Password ?</span>
-      <div class="background"></div>
+<app-header></app-header>
+<div class="form">
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <span class="title-login">Chill waves collab Sign In</span>
+    <div class="rectangle-1" >
+      <fa-icon class="usericon" [icon]="usericon"></fa-icon>
+      <input class="enter-username-password" formControlName="userName" placeholder="Enter your User Name" maxlength="20" required> 
     </div>
+    <div class="rectangle-1">
+      <fa-icon class="usericon" [icon]="passwordicon"></fa-icon>
+      <input type="password" class="enter-username-password" formControlName="password" placeholder="Enter your Password" maxlength="30" required>
+    </div>
+    <button class="submit" type="submit"  [disabled]="cannotSubmit">Login</button>
 
+    <span class="forgot-password">Forgot Password?</span>
+  </form>
+</div>
+<app-footer></app-footer>

@@ -1,0 +1,15 @@
+<app-header></app-header>
+<body>
+    <div class="dashboard">
+        <div class="sidebar" *ngIf="isMenuOpen">
+            <a routerLink="/contributor" [ngClass]="{ 'red-background': isContributorpage }">Tasks</a>
+            <a routerLink="/contributor/chat" [ngClass]="{ 'red-background': !isContributorpage }" >Chat</a>
+        </div>
+        <div>
+            <!-- <router-outlet></router-outlet> -->
+        </div>
+    </div> 
+</body>
+<app-footer></app-footer>
+
+
